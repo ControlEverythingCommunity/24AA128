@@ -28,7 +28,7 @@
  $> pi4j _24AA128
  ```
  
- ## Python
+## Python
  
  Download and install smbus library on Raspberry pi. Steps to install smbus are provided at:
  
@@ -40,7 +40,7 @@
  $> python _24AA128.py
  ```
  
- ## Arduino
+## Arduino
  
  Download and install Arduino Software (IDE) on your machine. Steps to install Arduino are provided at:
  
@@ -51,7 +51,7 @@
  Compile and upload the code on Arduino IDE and see the output on Serial Monitor.
  
  
- ## Particle Photon
+## Particle Photon
  
  Login to your Photon and setup your device according to steps provided at:
  
@@ -66,7 +66,7 @@
  https://dashboard.particle.io/user/logs
  
  
- ## C
+## C
  
  Setup your device according to steps provided at:
  

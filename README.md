@@ -11,6 +11,7 @@
  This Sample code can be used with Raspberry pi, Arduino, Particle and Beaglebone Black.
 
 ## Java
+
  Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
  
  http://pi4j.com/install.html
@@ -28,6 +29,7 @@
  ```
  
  ## Python
+ 
  Download and install smbus library on Raspberry pi. Steps to install smbus are provided at:
  
  https://pypi.python.org/pypi/smbus-cffi/0.5.1
@@ -39,6 +41,7 @@
  ```
  
  ## Arduino
+ 
  Download and install Arduino Software (IDE) on your machine. Steps to install Arduino are provided at:
  
  https://www.arduino.cc/en/Main/Software
@@ -49,6 +52,7 @@
  
  
  ## Particle Photon
+ 
  Login to your Photon and setup your device according to steps provided at:
  
  https://docs.particle.io/guide/getting-started/connect/photon/
@@ -63,6 +67,7 @@
  
  
  ## C
+ 
  Setup your device according to steps provided at:
  
  https://beagleboard.org/getting-started

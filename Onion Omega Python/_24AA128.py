@@ -32,4 +32,4 @@ time.sleep(0.5)
 data = i2c.readBytes(0x50, 0x00, 1)
 
 # Output data to screen
-print "Input Data : ",data
+print "Input Data : ",data[0]

@@ -8,7 +8,7 @@
  
  https://www.controleverything.com/products
  
- This Sample code can be used with Raspberry pi, Arduino, Particle and Beaglebone Black.
+ This Sample code can be used with Raspberry pi, Arduino, Particle Photon, Beaglebone Black and Onion Omega.
 
 ## Java
 
@@ -83,4 +83,25 @@
  $>./_24AA128
  ```
  
+ 
+ ## Onion Omega
+
+Get Started and setting up the Onion Omega according to steps provided at :
+
+https://wiki.onion.io/Get-Started
+
+To install the Python module, run the following commands:
+```cpp
+opkg update
+```
+```cpp
+opkg install python-light pyOnionI2C
+```
+
+Download (or git pull) the code in Onion Omega. Run the program.
+
+```cpp
+$> python _24AA128.py
+```
+
 #####The code output is the value of stored data.

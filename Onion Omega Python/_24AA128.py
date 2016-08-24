@@ -4,11 +4,11 @@
 # This code is designed to work with the 24AA128_I2CMEM I2C Mini Module available from ControlEverything.com.
 # https://www.controleverything.com/products
 
+from OmegaExpansion import onionI2C
 import time
-import smbus
 
 # Get I2C bus
-bus = smbus.SMBus(1)
+i2c = onionI2C.OnionI2C()
 
 # 24AA128 address, 0x50(80)
 # Select write address
